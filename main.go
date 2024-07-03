@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func func main() {
+func main() {
 	router := gin.Default()
 	router.GET("/hello/:name", func(c *gin.Context) {
 		name := c.Param("name")
